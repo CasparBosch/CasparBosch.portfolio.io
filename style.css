@@ -49,9 +49,15 @@ body {
 	width: 100%;
 }
 	
-/* footer {
-	background-image: "taskbar.png";
-} */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("img/taskbar.png");
+  color: white;
+  text-align: center;
+}
 
 .icon {
 	min-width: 108px;
